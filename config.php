@@ -44,14 +44,14 @@ if (!isset($path_to_root) || isset($_GET['path_to_root']) || isset($_POST['path_
 	$select_trail 	= 0; // track also SELECT queries
 
 	// Main Title
-	$app_title = "FrontAccounting";
+	$app_title = "ITSD Accounting ERP";
 
 	// Build for development purposes
 	$build_version 	= date("d.m.Y", filemtime("$path_to_root/CHANGELOG.txt"));
 
 	// Powered by
-	$power_by 		= "FrontAccounting";
-	$power_url 		= "http://frontaccounting.com";
+	$power_by 		= "ITSD";
+	$power_url 		= "http://itsd.com.bd";
 
 	/* No check on edit conflicts. Maybe needed to be set to 1 in certains Windows Servers */
 	$no_check_edit_conflicts = 0;
@@ -83,7 +83,7 @@ if (!isset($path_to_root) || isset($_GET['path_to_root']) || isset($_POST['path_
 	// 	locally installed wiki module
 	// $help_base_url = $path_to_root.'/modules/wiki/index.php?n='._('Help').'.';
 	// 	context help feed from frontaccounting.com
-	$help_base_url = 'http://frontaccounting.com/fawiki/index.php?n=Help.';
+	$help_base_url = 'http://itsd.com.bd';
 	// 	set to null if not used:
 	//	$help_base_url = null;
 
